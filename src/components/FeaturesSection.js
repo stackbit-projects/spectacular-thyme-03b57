@@ -69,7 +69,7 @@ export default class FeaturesSection extends React.Component {
                             })}
                         >
                             {title && (
-                                sectionTitle ? <h4 className="feature__title h2">{title}</h4>
+                                sectionTitle ? <h className="feature__title h2">{title}</h>
                                     : <h2 className="feature__title h2">{title}</h2>
                             )}
                             {subtitle && <p className="feature__subtitle">{subtitle}</p>}
